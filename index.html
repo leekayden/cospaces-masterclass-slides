@@ -42,7 +42,6 @@
             <hr />
           </div>
           <div class="content-right">
-            <!-- MAKE FONT BIGGER -->
             <fieldset>
               <legend>Our mission today</legend>
               <p>
@@ -116,7 +115,18 @@
             </p>
           </div>
           <div class="content-right">
-            <!-- put animation of character walking -->
+            <div id="main">
+              <div id="head"></div>
+             <div id="torso">
+               <div id="handr"></div> 
+               <div id="body"></div>
+                 <div id="handl"></div>
+               </div>
+               <div id="lower">
+                 <div id="legr"></div>
+                 <div id="legl"></div>
+               </div>
+            </div>
           </div>
         </div>
       </section>
@@ -129,28 +139,90 @@
             <hr />
             <p class="text-intro">
               Make the character move in all directions, and follow a specified path!
+              <fieldset>
+                <legend>Guidelines</legend>
+                <ul>
+                  <li>Make the vehicle move on a path around a city!</li>
+                  <li>Make the vehicle move on a road!</li>
+                </ul>
+              </fieldset>
             </p>
           </div>
           <div class="content-right">
-            <fieldset>
-              <legend>Guidelines</legend>
-              <ul>
-                <li>Make the vehicle move on a path around a city!</li>
-                <li>Make the vehicle move on a road!</li>
-              </ul>
-            </fieldset>
+            <div class="car">
+              <div class="car__top"></div>
+              <div class="car__body">
+                  <div class="car__bulb"></div>
+                  <div class="car__bulb car__bulb--back"></div>
+                  <div class="car__center"></div>
+              </div>
+              <div class="car__wheels">
+                  <div class="car__wheel car__wheel--1">
+                      <div class="wheel__circle"></div>
+                      <div class="wheel__rect wheel__rect--1"></div>
+                      <div class="wheel__rect wheel__rect--2"></div>
+                      <div class="wheel__rect wheel__rect--3"></div>
+                      <div class="wheel__rect wheel__rect--4"></div>
+                      <div class="wheel__rect wheel__rect--5"></div>
+                      <div class="wheel__rect wheel__rect--6"></div>
+                  </div>
+                  <div class="car__wheel car__wheel--2">
+                      <div class="wheel__circle"></div>
+                      <div class="wheel__rect wheel__rect--1"></div>
+                      <div class="wheel__rect wheel__rect--2"></div>
+                      <div class="wheel__rect wheel__rect--3"></div>
+                      <div class="wheel__rect wheel__rect--4"></div>
+                      <div class="wheel__rect wheel__rect--5"></div>
+                      <div class="wheel__rect wheel__rect--6"></div>
+                  </div>
+              </div>
+          </div>
           </div>
         </div>
       </section>
 
       <section>
         <div class="wrap">
-          <div>
+          <div class="content-left">
             <h2>Make a character talk to you!</h2>
             <hr />
             <p class="text-intro">
               Make the character interact with you!
             </p>
+          </div>
+          <div class="content-right">
+            <div class="wrapper">
+              <div class="border-circle" id="one"></div>
+              <div class="border-circle" id="two"></div>
+              <div class="background-circle">
+                <div class="triangle-light"></div>
+                <div class="body"></div>
+                <span class="shirt-text aligncenter">&#8195;&#8202;&#8202;&#8202;Let's chat!</span>
+                <div class="triangle-dark"></div>
+              </div>
+              <div class="head">
+                <div class="ear" id="left"></div>
+                <div class="ear" id="right"></div>
+                <div class="hair-main">
+                  <div class="sideburn" id="left"></div>
+                  <div class="sideburn" id="right"></div>
+                  <div class="hair-top"></div>
+                </div>
+                <div class="face">
+                  <div class="hair-bottom"></div>
+                  <div class="nose"></div>
+                  <div class="eye-shadow" id="left">
+                    <div class="eyebrow"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div class="eye-shadow" id="right">
+                    <div class="eyebrow"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div class="mouth"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

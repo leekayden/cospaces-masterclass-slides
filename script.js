@@ -15,7 +15,6 @@ let timerId = setInterval(() => {
     seconds--;
     if(seconds <= 0)
         clearInterval(timerId);
-
     percentage = seconds/max * 100;
     progressElm.style.strokeDashoffset = circumference - (percentage/100) * circumference;
 
