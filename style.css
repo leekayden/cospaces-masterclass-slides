@@ -268,7 +268,7 @@ body {
 }
 .car {
   position: absolute;
-  top: 450px;
+  top: 475px;
   left: 500px;
   transform: translate(-50%, -100%);
   transform-origin: 25% bottom;
